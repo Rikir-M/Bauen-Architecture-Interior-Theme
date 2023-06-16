@@ -20,7 +20,9 @@ export default {
         primary: '#272727',
         secondary: '#b19777',
         boxColor: '#323232',
-        textColor: '#999999'
+        textColor: '#999999',
+        headColor: '#fff',
+        selectionColor:'#232323'
       },
       fontFamily: {
         'Didact': 'Didact Gothic',
