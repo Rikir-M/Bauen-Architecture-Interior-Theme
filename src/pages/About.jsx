@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import canada from "../assets/images/canadaOffice.jpg"
 
 const About = () => {
@@ -18,9 +18,9 @@ const About = () => {
               Planner inilla duiman at elit finibus viverra nec a lacus themo the drudea seneoice misuscipit non sagie the fermen.
             </p>
             </div>
-          <div className='relative'>
+          <div className='relative mb-20'>
             <img src={canada} className='hover:scale-95 transition-all duration-500' alt="" />
-            <button className='absolute bottom-1  text-sm right-10 uppercase px-12 py-5 font-Oswald font-light tracking-widest bg-boxColor'>
+            <button className='absolute -bottom-7 right-6 lg:-bottom-6   text-sm lg:right-10 uppercase px-8 py-4 lg:px-12 lg:py-5 font-Oswald font-light tracking-widest bg-boxColor'>
               c a n a d a  o f f i c e
             </button>
             </div>
