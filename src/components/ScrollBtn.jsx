@@ -14,8 +14,10 @@ const ScrollBtn = () => {
       const windowHeight =
         document.documentElement.scrollHeight -
             document.documentElement.clientHeight;
-        console.log( document.documentElement.scrollHeight );
+      // console.log(document.documentElement.scrollHeight);
+      // console.log(document.documentElement.clientHeight);
         const scrolled = window.scrollY;
+        console.log(scrolled);
         const percentage = (scrolled / windowHeight) * 100;
         setScrollPercentage(percentage);
          if (!showProgressBar && percentage > 0) {
@@ -32,7 +34,7 @@ const ScrollBtn = () => {
     const handleOnClick = () => {
     window.scrollTo({
       top: 0,
-        behavior: "smooth",
+      behavior: "smooth",
       
     });
         // setShowProgressBar(false);

@@ -11,7 +11,6 @@ const App = () => {
   return (
   
     <div className='selection:bg-selectionColor'>
-      <h1 className='animate__animated animate__fadeInUp text-9xl text-white'>hello</h1>
       {/* <Navbar/>
       <Home/> */}
       <Services/>
