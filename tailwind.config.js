@@ -12,8 +12,8 @@ export default {
         screens: {
           sm: '640px',
           md: '768px',
-          lg: '1024px',
-          xl: '1280px'
+          lg: '1280px',
+          xl: '1350px'
         }
       },
       colors: {
@@ -27,7 +27,26 @@ export default {
       fontFamily: {
         'Didact': 'Didact Gothic',
         'Oswald' : 'Oswald'
-      }
+      },
+      letterSpacing: {
+        tightest: '-.075em',
+        tighter: '-.05em',
+        tight: '-.025em',
+        normal: '0',
+        wide: '4px',
+        wider: '9px',
+        widest: '15px',
+      },
+      fontSize: {
+        sm: '12px',
+        base: '13px',
+        xl: '15px',
+        '2xl': '28px',
+        '3xl': '48px',
+        '4xl': '2.441rem',
+        '5xl': '3.052rem',
+      },
+      
     },
   },
   plugins: [],

@@ -9,6 +9,7 @@ import ScrollBtn from './components/ScrollBtn'
 
 const App = () => {
   return (
+
   
     <div className='selection:bg-selectionColor'>
       {/* <Navbar/>
@@ -18,6 +19,10 @@ const App = () => {
       {/* <About/> */}
       {/* <Footer/> */}
       {/* <ServiceDetail/> */}
+
+    <div className=''>
+      {/* <Navbar/> */}
+      <Home/>
     </div>
   )
 }
