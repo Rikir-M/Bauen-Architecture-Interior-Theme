@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import '../style/Services.css'
 import iconOne from "../assets/images/icon-1.png"
 import iconTwo from "../assets/images/icon-2.png"
@@ -21,7 +21,7 @@ const Services = () => {
             <div>
               <img src={iconOne} className='w-16 mb-4' alt="" />
             </div>
-            <h1 className='uppercase font-Oswald tracking-widest text-base font-light text-headColor mb-5'>a r c h i t e c t u r e</h1>
+            <h1 className='uppercase font-Oswald tracking-[5px] text-[16px] font-light text-headColor mb-5'>architecture</h1>
             <div className='line'></div>
             <p className='text-justify text-textColor leading-8 '>
               Architecture bibendum eros eget lacus the vulputate sit amut vehicuta nibhen ulicera in the vitae miss.
@@ -32,7 +32,7 @@ const Services = () => {
             <div>
               <img src={iconTwo} className='w-16 mb-4' alt="" />
             </div>
-            <h1 className='uppercase font-Oswald tracking-widest text-base font-light text-headColor mb-5'>i n t e r i o r</h1>
+            <h1 className='uppercase font-Oswald tracking-[5px] text-[16px] font-light text-headColor mb-5'>interior</h1>
             <div className='line'></div>
             <p className='text-justify text-textColor leading-8 '>
               Architecture bibendum eros eget lacus the vulputate sit amut vehicuta nibhen ulicera in the vitae miss.
@@ -43,7 +43,7 @@ const Services = () => {
             <div>
               <img src={iconThree} className='w-16 mb-4' alt="" />
             </div>
-            <h1 className='uppercase font-Oswald tracking-widest text-base font-light text-headColor mb-5'>u r b a n</h1>
+            <h1 className='uppercase font-Oswald tracking-[5px] text-[16px] font-light text-headColor mb-5'>urban</h1>
             <div className='line'></div>
             <p className='text-justify text-textColor leading-8 '>
               Architecture bibendum eros eget lacus the vulputate sit amut vehicuta nibhen ulicera in the vitae miss.

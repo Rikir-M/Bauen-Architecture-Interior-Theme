@@ -21,8 +21,8 @@ const Portfolio = () => {
         <p className=" text-secondary">Projects</p>
       </div>
       <div className=" mx-auto container-after">
-        <div className="grid grid-cols-12">
-          <div className="projects col-span-6">
+        <div className="grid grid-cols-1 md:grid-cols-2">
+          <div className="projects col-span-1">
             <div className="project-container">
               <a href="#">
                 <img src={img1} alt="" className="project-img" />
@@ -37,7 +37,7 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
-          <div className="projects col-span-6">
+          <div className="projects col-span-1">
             <div className="project-container" style={{ marginTop: "78px" }}>
               <a href="#">
                 <img src={img2} alt="" className="project-img" />
@@ -53,8 +53,8 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-12">
-          <div className="projects col-span-6">
+        <div className="grid grid-cols-1 md:grid-cols-2">
+          <div className="projects col-span-1">
             <div className="project-container">
               <a href="#">
                 <img src={img3} alt="" className="project-img" />
@@ -69,7 +69,7 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
-          <div className="projects col-span-6">
+          <div className="projects col-span-1">
             <div className="project-container" style={{ marginTop: "78px" }}>
               <a href="#">
                 <img src={img4} alt="" className="project-img" />
@@ -87,8 +87,8 @@ const Portfolio = () => {
         </div>
 
         {showAllProjects && (
-          <div className="grid grid-cols-12">
-            <div className="projects col-span-6">
+          <div className="grid grid-cols-1 md:grid-cols-2">
+            <div className="projects col-span-1">
               <div className="project-container">
                 <a href="#">
                   <img src={img5} alt="" className="project-img" />
@@ -103,7 +103,7 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-            <div className="projects col-span-6 animate__animated animate__fadeInTopLeft">
+            <div className="projects col-span-1 animate__animated animate__fadeInTopLeft">
               <div className="project-container" style={{ marginTop: "78px" }}>
                 <a href="#">
                   <img src={img6} alt="" className="project-img" />

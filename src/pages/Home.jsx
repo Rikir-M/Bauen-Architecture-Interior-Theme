@@ -7,7 +7,6 @@ import "swiper/css/navigation";
 import bg1 from "../assets/images/bg-1.jpg";
 import bg2 from "../assets/images/bg-2.jpg";
 import Navbar from "../components/Navbar";
-import Portfolio from "./Portfolio";
 import "./Home.css";
 
 SwiperCore.use([Autoplay]);
@@ -17,7 +16,7 @@ const Home = () => {
     <div className="">
       <Navbar />
       <div className="grid grid-cols-12">
-        <div className="col-span-1">
+        <div className="col-span-0 md:col-span-1 hidden md:block">
           <ul className=" icons absolute">
             <li className="icon">
               <a href="#">
@@ -41,7 +40,7 @@ const Home = () => {
             </li>
           </ul>
         </div>
-        <div className="col-span-11">
+        <div className="col-span-12 md:col-span-11">
           <Swiper
             spaceBetween={0}
             centeredSlides={true}
@@ -65,7 +64,7 @@ const Home = () => {
                   alt=""
                 />
                 <div className="slide-text text-end">
-                  <p className="text-3xl mb-5 tracking-widest uppercase  font-Oswald animate__animated animate__fadeInUp">
+                  <p className="text-[30px] md:text-3xl mb-5 tracking-[10px] md:tracking-widest uppercase  font-Oswald animate__animated animate__fadeInUp">
                     Innovate design in <br /> Toronto{" "}
                   </p>
                   <p className=" small animate__animated animate__fadeInUp font-Didact">
@@ -89,7 +88,7 @@ const Home = () => {
                   alt=""
                 />
                 <div className="slide-text text-end">
-                  <p className="text-3xl mb-5 tracking-widest uppercase  font-Oswald animate__animated animate__fadeInUp">
+                  <p className="text-[30px] md:text-3xl mb-5 tracking-[10px] md:tracking-widest uppercase  font-Oswald animate__animated animate__fadeInUp">
                     Innovate design in <br /> Canada{" "}
                   </p>
                   <p className=" small animate__animated animate__fadeInUp font-Didact">
@@ -116,7 +115,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Portfolio />
+      {/* <Portfolio /> */}
     </div>
   );
 };

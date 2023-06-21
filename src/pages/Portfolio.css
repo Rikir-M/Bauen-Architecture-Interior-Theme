@@ -4,10 +4,10 @@
   padding-bottom: 60px;
 }
 
-.container-after {
+/* .container-after {
   width: 1120px;
   height: 1289.88px;
-}
+} */
 
 .projects {
   padding-left: 90px;
@@ -98,3 +98,17 @@
 .fade-slide-exit {
   position: relative;
 }  */
+
+@media (min-width: 768px) {
+  .project-text{
+    transform: scale(0.8);
+    bottom: -20px;
+  }
+  .projects{
+    padding-left: 20px;
+  }
+  .link-to-project{
+    font-size: 22px;
+  }
+}
+

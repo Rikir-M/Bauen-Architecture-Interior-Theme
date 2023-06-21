@@ -7,7 +7,7 @@ const About = () => {
       <div className='container mx-auto'>
         <div className='grid grid-cols-1 md:grid-cols-2 text-headColor gap-10'>
           <div>
-            <h1 className='font-Oswald mb-10  text-headColor text-4xl uppercase'>A b o u t <span className='text-secondary '> b a u e n</span></h1>
+            <h1 className='font-Oswald mb-10  text-headColor text-4xl uppercase'>A b o u t <span className='text-secondary '> bauen</span></h1>
             <p className='text-justify mb-5 text-textColor leading-8 '>
               Architecture viverra tristique justo duis vitae diam neque nivamus aestan ateuene artines aringianu atelit finibus viverra nec lacus. Nedana theme erodino setlie suscipe no curabit tristique.
             </p>
@@ -21,7 +21,7 @@ const About = () => {
           <div className='relative mb-20'>
             <img src={canada} className='hover:scale-95 transition-all duration-500' alt="" />
             <button className='absolute -bottom-7 right-6 lg:-bottom-6   text-sm lg:right-10 uppercase px-8 py-4 lg:px-12 lg:py-5 font-Oswald font-light tracking-widest bg-boxColor'>
-              c a n a d a  o f f i c e
+              canada office
             </button>
             </div>
         </div>
