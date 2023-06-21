@@ -17,7 +17,11 @@ const App = () => {
 
 import Footer from './components/Footer'
 import Navbar from './components/Navbar'
+
+import Contact from './pages/Contact'
+
 import About from './pages/About'
+
 import Home from './pages/Home'
 import Services from './pages/Services'
 import ServiceDetail from './pages/ServiceDetail'
@@ -37,8 +41,12 @@ const App = () => {
       {/* <ServiceDetail/> */}
 
     <div className=''>
+
+      <Contact/>
+
       {/* <Navbar/> */}
       <Home/>
+
 
     </div>
   )
