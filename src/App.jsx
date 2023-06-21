@@ -1,4 +1,5 @@
 // import React from 'react'
+
 import BlogCard from './components/BlogCard'
 import BlogDetail from './components/BlogDetail'
 import Navbar from './components/Navbar'
@@ -13,6 +14,32 @@ const App = () => {
         <Route path='/' element={<Blog/>}/>
         <Route path='/blogdetail' element={<BlogDetail/>}/>
       </Routes>
+
+import Footer from './components/Footer'
+import Navbar from './components/Navbar'
+import About from './pages/About'
+import Home from './pages/Home'
+import Services from './pages/Services'
+import ServiceDetail from './pages/ServiceDetail'
+import ScrollBtn from './components/ScrollBtn'
+
+const App = () => {
+  return (
+
+  
+    <div className='selection:bg-selectionColor'>
+      {/* <Navbar/>
+      <Home/> */}
+      <Services/>
+      <ScrollBtn  />
+      {/* <About/> */}
+      {/* <Footer/> */}
+      {/* <ServiceDetail/> */}
+
+    <div className=''>
+      {/* <Navbar/> */}
+      <Home/>
+
     </div>
   )
 }
