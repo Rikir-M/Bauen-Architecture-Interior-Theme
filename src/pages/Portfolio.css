@@ -9,10 +9,6 @@
   height: 1289.88px;
 } */
 
-.projects {
-  padding-left: 90px;
-  padding-bottom: 90px;
-}
 
 .project-container {
   position: relative;
@@ -39,8 +35,8 @@
 .project-text {
   position: absolute;
   letter-spacing: 5px;
-  left: -35px;
-  bottom: -1px;
+  left: -10px;
+  bottom: -55px;
   padding: 20px 20px 20px 0;
 }
 
@@ -52,9 +48,6 @@
   letter-spacing: 3px;
   cursor: pointer;
   z-index: 1;
-  /* overflow: hidden; */
-  /* margin-top: 30px;
-      margin-right: 15px; */
 }
 
 .load-more-button::before {
@@ -102,10 +95,8 @@
 @media (min-width: 768px) {
   .project-text{
     transform: scale(0.8);
-    bottom: -20px;
-  }
-  .projects{
-    padding-left: 20px;
+    bottom: -17px;
+    left: -50px;
   }
   .link-to-project{
     font-size: 22px;

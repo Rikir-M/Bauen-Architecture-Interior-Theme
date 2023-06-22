@@ -7,6 +7,7 @@ import img4 from "../assets/images/primeHotel.jpg";
 import img5 from "../assets/images/lakeHouse.jpg";
 import img6 from "../assets/images/urbanHouse.jpg";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Portfolio = () => {
   const [showAllProjects, setShowAllProjects] = useState(false);
@@ -15,30 +16,32 @@ const Portfolio = () => {
     setShowAllProjects(true);
   };
   return (
-    <div>
-      <div className="flex justify-center font-Oswald uppercase project-title mt-40">
-        <p className=" text-white me-6">Our</p>
+    <div className="pb-[90px]" id="portfolio">
+      <div className="flex justify-center font-Oswald uppercase project-title">
+        <p className=" text-headColor me-6">Our</p>
         <p className=" text-secondary">Projects</p>
       </div>
-      <div className=" mx-auto container-after">
-        <div className="grid grid-cols-1 md:grid-cols-2">
-          <div className="projects col-span-1">
-            <div className="project-container">
-              <a href="#">
-                <img src={img1} alt="" className="project-img" />
-              </a>
-              <div className="font-light project-text font-Oswald bg-primary">
-                <p className=" text-base upper-text uppercase leading-5  text-secondary">
-                  interior
-                </p>
-                <p className="link-to-project leading-5 text-white uppercase">
-                  <a href="#">cotton house</a>
-                </p>
+      <div className=" mx-auto md:container">
+        <div className="grid grid-cols-1 md:grid-cols-2 px-16">
+          <Link to={"/porfolioDetail"}>
+            <div className="ps-[20px] lg:ps-[90px] pb-[90px] projects col-span-1">
+              <div className="project-container">
+                <a href="#">
+                  <img src={img1} alt="" className="project-img" />
+                </a>
+                <div className="font-light project-text font-Oswald bg-primary">
+                  <p className=" text-base upper-text uppercase leading-5  text-secondary">
+                    interior
+                  </p>
+                  <p className="link-to-project leading-5 text-white uppercase">
+                    <a href="#">cotton house</a>
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="projects col-span-1">
-            <div className="project-container" style={{ marginTop: "78px" }}>
+          </Link>
+          <div className="ps-[20px] lg:ps-[90px] pb-[90px] projects col-span-1">
+            <div className="project-container mt-0 md:mt-[78px]">
               <a href="#">
                 <img src={img2} alt="" className="project-img" />
               </a>
@@ -53,8 +56,8 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2">
-          <div className="projects col-span-1">
+        <div className="grid grid-cols-1 md:grid-cols-2 px-16">
+          <div className="ps-[20px] lg:ps-[90px] pb-[90px] projects col-span-1">
             <div className="project-container">
               <a href="#">
                 <img src={img3} alt="" className="project-img" />
@@ -69,8 +72,8 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
-          <div className="projects col-span-1">
-            <div className="project-container" style={{ marginTop: "78px" }}>
+          <div className="ps-[20px] lg:ps-[90px] pb-[90px] projects col-span-1">
+            <div className="project-container mt-0 md:mt-[78px]">
               <a href="#">
                 <img src={img4} alt="" className="project-img" />
               </a>
@@ -87,8 +90,8 @@ const Portfolio = () => {
         </div>
 
         {showAllProjects && (
-          <div className="grid grid-cols-1 md:grid-cols-2">
-            <div className="projects col-span-1">
+          <div className="grid grid-cols-1 md:grid-cols-2 px-16">
+            <div className="ps-[20px] lg:ps-[90px] pb-[90px] projects col-span-1">
               <div className="project-container">
                 <a href="#">
                   <img src={img5} alt="" className="project-img" />
@@ -103,8 +106,8 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-            <div className="projects col-span-1 animate__animated animate__fadeInTopLeft">
-              <div className="project-container" style={{ marginTop: "78px" }}>
+            <div className="ps-[20px] lg:ps-[90px] pb-[90px] projects col-span-1 animate__animated animate__fadeInTopLeft">
+              <div className="project-container mt-0 md:mt-[78px]">
                 <a href="#">
                   <img src={img6} alt="" className="project-img" />
                 </a>
@@ -121,7 +124,7 @@ const Portfolio = () => {
           </div>
         )}
         {!showAllProjects && (
-          <div className="flex justify-center mt-6">
+          <div className="flex justify-center mt-4">
             <button
               className="load-more-button uppercase font-Oswald font-light"
               onClick={handleClick}

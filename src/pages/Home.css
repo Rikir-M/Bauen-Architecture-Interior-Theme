@@ -1,6 +1,6 @@
 .icons{
   bottom: 24px;
-  left: 2.5%;
+  left: 35%;
 }
 
 .icon{
@@ -80,10 +80,9 @@
 }
 
 .swiper-nav {
-  position: absolute;
   font-size: 11px;
   top: 87%;
-  left: 11%;
+  left: 3%;
   width: 90px;
   height: 50px;
   right: 0;

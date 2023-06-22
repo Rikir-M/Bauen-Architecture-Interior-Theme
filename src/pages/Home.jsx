@@ -13,10 +13,10 @@ SwiperCore.use([Autoplay]);
 
 const Home = () => {
   return (
-    <div className="">
+    <div className=" pb-[90px]" id="home">
       <Navbar />
       <div className="grid grid-cols-12">
-        <div className="col-span-0 md:col-span-1 hidden md:block">
+        <div className="col-span-0 md:col-span-1 hidden md:block relative">
           <ul className=" icons absolute">
             <li className="icon">
               <a href="#">
@@ -40,7 +40,7 @@ const Home = () => {
             </li>
           </ul>
         </div>
-        <div className="col-span-12 md:col-span-11">
+        <div className="col-span-12 md:col-span-11 relative">
           <Swiper
             spaceBetween={0}
             centeredSlides={true}
@@ -105,7 +105,7 @@ const Home = () => {
               </div>
             </SwiperSlide>
           </Swiper>
-          <div className="swiper-nav">
+          <div className="swiper-nav absolute">
             <button className="prev bg-transparent">
               <i className=" ti-angle-left"></i>
             </button>
