@@ -24,7 +24,7 @@ const Portfolio = () => {
       <div className=" mx-auto md:container">
         <div className="grid grid-cols-1 md:grid-cols-2 px-16">
           <Link to={"/porfolioDetail"}>
-            <div className="ps-[20px] lg:ps-[90px] pb-[90px] projects col-span-1">
+            <div className="ps-[20px] lg:ps-[90px] pb-[100px] projects col-span-1">
               <div className="project-container">
                 <a href="#">
                   <img src={img1} alt="" className="project-img" />

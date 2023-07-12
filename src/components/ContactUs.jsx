@@ -4,7 +4,7 @@ import "./ContactUs.css";
 const ContactUs = () => {
   return (
     <div className="bg-primary">
-      <div className="container mx-auto pb-[90px]">
+      <div className="container mx-auto pb-[100px]">
         <h2 className="text-4xl font-normal font-Oswald mb-8 text-start py-3 sm:py-0">
           <span className="text-white tracking-[10px]">CONTACT </span>{" "}
           <span className="text-secondary tracking-[10px]">US</span>

@@ -28,7 +28,7 @@ const BlogCard = () => {
     }
   };
   return (
-    <div className="select-none container mx-auto pb-[90px]">
+    <div className="select-none container mx-auto pb-[100px]">
       <h2 className="font-Oswald text-center font-normal text-[40px] uppercase tracking-[10px] mb-8">
         <span className="text-white">Current</span>{" "}
         <span className="text-secondary">News</span>

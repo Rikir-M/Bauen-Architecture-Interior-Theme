@@ -7,8 +7,8 @@ import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
-    <section className="services container" id="services">
-      <div className="px-5 pb-[90px]">
+    <section className="services container max-w-[1140px]" id="services">
+      <div className="lg:container px-5 pb-[100px]">
         <div className="grid grid-cols-1 ">
           <div className="service__head mb-20">
             <h1 className="font-Oswald  text-headColor text-4xl">
@@ -26,7 +26,7 @@ const Services = () => {
                 architecture
               </h1>
               <div className="line"></div>
-              <p className="text-justify text-textColor leading-8 ">
+              <p className="leading-7 text-[16px] text-textColor">
                 Architecture bibendum eros eget lacus the vulputate sit amut
                 vehicuta nibhen ulicera in the vitae miss.
               </p>
@@ -42,8 +42,8 @@ const Services = () => {
                 interior
               </h1>
               <div className="line"></div>
-              <p className="text-justify text-textColor ">
-                Architecture bibendum eros eget lacus the vulputate sit amut
+              <p className="leading-7 text-[16px] text-textColor ">
+                Interior bibendum eros eget lacus the vulputate sit amut
                 vehicuta nibhen ulicera in the vitae miss.
               </p>
               <div className="num">02</div>
@@ -58,8 +58,8 @@ const Services = () => {
                 urban
               </h1>
               <div className="line"></div>
-              <p className="text-justify text-textColor ">
-                Architecture bibendum eros eget lacus the vulputate sit amut
+              <p className="leading-7 text-[16px] text-textColor ">
+                Urban bibendum eros eget lacus the vulputate sit amut
                 vehicuta nibhen ulicera in the vitae miss.
               </p>
               <div className="num">03</div>

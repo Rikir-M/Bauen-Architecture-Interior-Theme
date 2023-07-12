@@ -13,7 +13,7 @@ SwiperCore.use([Autoplay]);
 
 const Home = () => {
   return (
-    <div className=" pb-[90px]" id="home">
+    <div className=" pb-[125px]" id="home">
       <Navbar />
       <div className="grid grid-cols-12">
         <div className="col-span-0 md:col-span-1 hidden md:block relative">
