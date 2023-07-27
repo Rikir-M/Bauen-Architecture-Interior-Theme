@@ -41,7 +41,7 @@ const About = () => {
                 alt=""
               />
               <div className="absolute text-center leading-6 md:-bottom-10 -bottom-7 right-6 lg:-bottom-10 w-[40%] text-[13px] lg:right-8 uppercase px-7 py-4 lg:px-[20px] lg:py-[15px] font-Oswald font-light tracking-[5px] bg-boxColor text-white">
-                canada office
+                Canada office
               </div>
             </div>
           </div>
