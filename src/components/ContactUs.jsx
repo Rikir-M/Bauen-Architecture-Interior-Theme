@@ -46,22 +46,22 @@ const ContactUs = () => {
             <form className="text-[16px] ">
               <input
                 type="text"
-                className="w-full text-textColor  py-[10px]   focus-visible:outline-none focus-visible:border-secondary  border-b-[1px] border-textColor bg-transparent"
+                className="w-full text-textColor py-[10px] focus-visible:outline-none focus-visible:border-secondary border-b-[1px] border-textColor bg-transparent"
                 placeholder="Full Name"
               />
               <input
                 type="text"
-                className="w-full text-textColor  py-[10px] my-[10px]   focus-visible:outline-none focus-visible:border-secondary  border-b-[1px] border-textColor bg-transparent"
+                className="w-full text-textColor py-[10px] my-[10px] focus-visible:outline-none focus-visible:border-secondary border-b-[1px] border-textColor bg-transparent"
                 placeholder="Your Email"
               />
               <textarea
                 placeholder="Your Message"
-                className="w-full text-textColor  py-[10px] mb-3   focus-visible:outline-none focus-visible:border-secondary  border-b-[1px] border-textColor bg-transparent h-[100px]"
+                className="w-full text-textColor py-[10px] mb-3 focus-visible:outline-none focus-visible:border-secondary border-b-[1px] border-textColor bg-transparent h-[100px]"
                 cols="40"
                 rows="10"
               ></textarea>
               <button className="mt-6  ">
-                <span className=" font-Oswald  font-light tracking-[3px] uppercase  btn-animation ">
+                <span className="font-Oswald font-light tracking-[3px] uppercase btn-animation ">
                   Submit
                 </span>
               </button>

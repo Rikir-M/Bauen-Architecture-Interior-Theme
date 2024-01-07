@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import "./BlogDetail.css";
+import "BlogDetail.css";
 import person from "../assets/images/Rober Misse.jpeg";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
@@ -8,11 +8,11 @@ import Navbar from "./Navbar";
 const BlogDetail = () => {
   let { state } = useLocation();
   useEffect(() => {
-    window.scrollTo(0,0);
+    window.scrollTo(0, 0);
   }, []);
   return (
     <div className="">
-      <Navbar/>
+      <Navbar />
       <div className="h-screen">
         <div className="detail-bg"></div>
         <div className="flex flex-col justify-center items-center pb-10 container mx-auto">
@@ -87,12 +87,12 @@ const BlogDetail = () => {
               <form className="text-[16px] ">
                 <input
                   type="text"
-                  className="w-full text-boxColor  py-[10px]   focus-visible:outline-none focus-visible:border-secondary  border-b-[1px] border-textColor bg-transparent"
+                  className="w-full text-boxColor py-[10px] focus-visible:outline-none focus-visible:border-secondary  border-b-[1px] border-textColor bg-transparent"
                   placeholder="Your Name*"
                 />
                 <input
                   type="text"
-                  className="w-full text-boxColor  py-[10px] my-[10px]   focus-visible:outline-none focus-visible:border-secondary  border-b-[1px] border-textColor bg-transparent"
+                  className="w-full text-boxColor py-[10px] my-[10px] focus-visible:outline-none focus-visible:border-secondary border-b-[1px] border-textColor bg-transparent"
                   placeholder="Your Email*"
                 />
                 <div className="flex flex-col md:flex-row items-start md:items-center md:justify-center gap-2">
@@ -104,12 +104,12 @@ const BlogDetail = () => {
                 </div>
                 <textarea
                   placeholder="Your Comment*"
-                  className="w-full text-boxColor  py-[10px] mb-3   focus-visible:outline-none focus-visible:border-secondary  border-b-[1px] border-textColor bg-transparent h-[100px]"
+                  className="w-full text-boxColor py-[10px] mb-3 focus-visible:outline-none focus-visible:border-secondary border-b-[1px] border-textColor bg-transparent h-[100px]"
                   cols="40"
                   rows="10"
                 ></textarea>
                 <button className="mt-6 overflow-hidden btn-animation ">
-                  <span className=" font-Oswald   text-white font-light tracking-[3px] uppercase  ">
+                  <span className="font-Oswald text-white font-light tracking-[3px] uppercase">
                     Post Comment
                   </span>
                 </button>

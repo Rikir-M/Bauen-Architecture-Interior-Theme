@@ -257,11 +257,11 @@ const Navbar = () => {
           }  hidden w-full transition-all duration-500 lg:block lg:w-auto bg-primary lg:bg-transparent`}
           id="navbar-default"
         >
-          <ul className="lg:text-white text-textColor  w-full uppercase text-xl tracking-wide font-Oswald font-light flex flex-col lg:flex-row p-4">
+          <ul className="lg:text-white text-textColor  w-full uppercase text-xl font-Oswald font-light flex flex-col lg:flex-row p-4">
             <li onClick={() => closeHandler()}>
               <a
                 href="#home"
-                className="active block py-2 pl-3 pr-4  hover:text-secondary transition-all duration-300"
+                className="active block py-2 pl-3 pr-4  hover:text-secondary transition-all duration-300 tracking-wide"
                 aria-current="page"
                 onClick={() => nav("/")}
               >
@@ -272,7 +272,7 @@ const Navbar = () => {
               <a
                 href="#about"
                 onClick={() => nav("/")}
-                className="block py-2 pl-3 pr-4  hover:text-secondary transition-all duration-300"
+                className="block py-2 pl-3 pr-4  hover:text-secondary transition-all duration-300 tracking-wide"
               >
                 About
               </a>
@@ -280,7 +280,7 @@ const Navbar = () => {
             <li onClick={() => closeHandler()}>
               <a
                 href="#portfolio"
-                className="block py-2 pl-3 pr-4  hover:text-secondary transition-all duration-300"
+                className="block py-2 pl-3 pr-4  hover:text-secondary transition-all duration-300 tracking-wide"
                 onClick={() => nav("/")}
               >
                 Portfolio
@@ -289,7 +289,7 @@ const Navbar = () => {
             <li onClick={() => closeHandler()}>
               <a
                 href="#services"
-                className="block py-2 pl-3 pr-4  hover:text-secondary transition-all duration-300"
+                className="block py-2 pl-3 pr-4  hover:text-secondary transition-all duration-300 tracking-wide"
                 onClick={() => nav("/")}
               >
                 Services
@@ -298,7 +298,7 @@ const Navbar = () => {
             <li onClick={() => closeHandler()}>
               <a
                 href="#blog"
-                className="block py-2 pl-3 pr-4  hover:text-secondary transition-all duration-300"
+                className="block py-2 pl-3 pr-4  hover:text-secondary transition-all duration-300 tracking-wide"
                 onClick={() => nav("/")}
               >
                 Blog
@@ -307,7 +307,7 @@ const Navbar = () => {
             <li onClick={() => closeHandler()}>
               <a
                 href="#contact"
-                className="block py-2 pl-3 pr-4  hover:text-secondary transition-all duration-300"
+                className="block py-2 pl-3 pr-4  hover:text-secondary transition-all duration-300 tracking-wide"
                 onClick={() => nav("/")}
               >
                 Contact
